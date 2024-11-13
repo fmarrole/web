@@ -89,7 +89,10 @@ html {
     padding: 60px 20px;
 }
 #invitacion p{
-    font-size: 1em;
+    font-size: 1.2em;
+}
+#invitacion .container{
+    width: 70%;
 }
 /*Contador*/
 .section-time {
