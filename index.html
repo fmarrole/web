@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand y toggle se agrupan para mejor visualización en dispositivos móviles -->
+            <div class="navbar-header">
+                <!-- Botón de menú hamburguesa para dispositivos móviles -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Menú colapsable -->
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#invitacion">Invitación</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div><!--/.navbar-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+
+    <!-- Invitación Section -->
+    <div id="invitacion" class="section">
+        <div class="container">
+            <span><img src="images/elemento-blanco-top-center.svg" style="width: 75px;"></span>
+            <h2>11 de diciembre</h2>
+            <h1>¡Una nueva luz está por encenderse en Clarity!</h1>
+            <p>En Clarity, hemos iluminado el camino hacia la transformación digital <strong>durante 18 años</strong>, y no habría sido posible sin aliados como tú.</p>
+            <p>Por eso, queremos invitarte a nuestro <strong>evento especial</strong> para celebrar nuestra trayectoria, disfrutar de un momento agradable y revelar nuestra <strong>nueva imagen</strong> que marcará el comienzo de una nueva etapa para Clarity.</p>
+            <p>Para recibir tu <strong>invitación exclusiva</strong>, tu new brand kit y estar en la lista de participación es importante que te registres. </p>
+            <a href="https://forms.office.com/r/KPbktiTnih" target="_blank" class="btn btn-green">Regístrate aquí</a>
+        </div>
+        <!-- Imágenes de líneas decorativas en las esquinas -->
+        <img src="images/elemento-blanco-top-left.svg" class="elemento-blanco-top-left" alt="Decoración superior izquierda">
+        <img src="images/elemento-blanco-top-right.svg" class="elemento-blanco-top-right" alt="Decoración superior derecha">
+        <img src="images/elemento-blanco-bottom-right.svg" class="elemento-blanco-bottom-right" alt="Decoración inferior derecha">
+
+    </div>
+
+    <!-- Countdown Section -->
+    <div class="section white-section">
+        <div class="container">
+            <div class="row section-time">
+                <div class="countdown"><span id="days"></span><br> días</div>
+                <div class="mnti_sep"></div>
+                <div class="countdown"><span id="hours"></span><br> horas</div>
+                <div class="mnti_sep"></div>
+                <div class="countdown"><span id="minutes"></span><br> minutos</div>
+                <div class="mnti_sep"></div>
+                <div class="countdown"><span id="seconds"></span><br> segundos</div>
+            </div>
+            <!--<p style="color: #A4FF00; font-weight: bold; margin-top: 20px;">Celebración + Entretenimiento + Networking + Innovación</p>-->
+            <div class="time-text">
+                Celebración + Entretenimiento + Networking + Innovación
+            </div>
+        </div>
+    </div>
+
+    <!-- Experiencia Section -->
+    <div id="experiencia" class="section white-section">
+        <div class="container">
+            <h2>Vive la experiencia con nosotros</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/exp-item1.jpg" alt="Sandro Meléndez" class="img-responsive img-exp">
+                    <p>Contaremos con la participación especial de <strong>Sandro Meléndez</strong></p>
+                    <button type="button" class="text-button" onclick="openModal()">Ver vídeo invitación</button>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/exp-item2.jpg" alt="Ambiente Exclusivo" class="img-responsive img-exp">
+                    <p>Un <strong>ambiente exclusivo</strong> de networking, open bar y aperitivos gourmet.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/exp-item3.jpg" alt="Celebración" class="img-responsive img-exp">
+                    <p>Celebramos nuestros <strong>18 años</strong> y revelaremos nuestra <strong>nueva imagen</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detalles Section -->
+    <div  class="white-section">
+        <div id="detalles" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/date-item1.png" alt="Sandro Meléndez" class="img-responsive img-date">
+                        <p><strong>Fecha</strong></p>
+                        <p>11 de diciembre</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/date-item2.png" alt="Sandro Meléndez" class="img-responsive img-date">
+                        <p><strong>Lugar</strong></p>
+                        <p>Pescados Capitales, Miraflores - Av. Mariscal La Mar 1337</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/date-item3.png" alt="Sandro Meléndez" class="img-responsive img-date">
+                        <p><strong>Hora</strong></p>
+                        <p>07:00 pm</p>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+
+    <!-- Asistencia Section -->
+    <div id="asistencia" class="section">
+        <div class="container">
+            <h3>Prepárate para una noche especial… llena de sorpresas y momentos únicos. Celebra con nosotros y descubre cómo, juntos, continuaremos iluminando el camino hacia la innovación.</h3><br>
+            <p><a href="https://forms.office.com/r/KPbktiTnih" target="_blank" class="btn btn-green">Confirma tu asistencia aquí</a></p>
+            <h3>Agenda en tu calendario:</h3>
+            <div class="row">
+                <a class="btn btn-green" href="https://www.google.com/calendar/render?action=TEMPLATE&text=¡Save+the+Date!+Reserva+el+11+de+diciembre+para+conocer+nuestra+nueva+imagen&dates=20241212T000000Z/20241212T050000Z&details=¡Una+nueva+luz+está+por+encenderse!&location=Pescados+Capitales+Miraflores" target="_blank" class="btn btn-primary">Google Calendar</a>
+                <a class="btn btn-green" href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&subject=¡Save+the+Date!+Reserva+el+11+de+diciembre+para+conocer+nuestra+nueva+imagen&startdt=2024-12-11T19:00:00&enddt=2024-12-12T00:00:00&body=¡Una+nueva+luz+está+por+encenderse!&location=Pescados+Capitales+Miraflores" target="_blank">Outlook Calendar</a>
+                <!--<a class="btn btn-green" href="file/Clarity_NuevaImagen.ics" class="btn btn-primary">Descargar evento .ics</a>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- Ubicación Section -->
+    <div id="ubicacion" class="section white-section">
+        <div class="container">
+            <p>¿Cómo ubicar el lugar?</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15604.158419187714!2d-77.0496169!3d-12.1094413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8361991e8ef%3A0xfb136f5bd222065f!2sPescados%20Capitales%20Miraflores!5e0!3m2!1ses-419!2spe!4v1731440928624!5m2!1ses-419!2spe" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contacto Section -->
+    <div id="contacto" class="section">
+        <div class="container">
+            <div class="inline-container">
+                <p><img src="images/elemento-blanco-footer.svg" alt="Celebración" class="img-responsive img-foot"></p>
+                <p>¿Tienes alguna duda?</p>
+                <a href="https://wa.link/vfq9x0" target="_blank" class="btn btn-green">Contáctanos aquí</a>
+                <p><img src="images/elemento-blanco-footer.svg" alt="Celebración" class="img-responsive img-foot"></p>
+            </div>
+                
+        </div>
+    </div>
+
+    <!-- Modal de Bootstrap -->
+    <div id="videoModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Sandro Meléndez</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- Video -->
+                    <video id="videoPlayer" width="100%" controls>
+                        <source src="file/videoInvitacion.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:SA Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Andrea Muñoz";RSVP=TRUE:mailto:andrea.munoz@clarity.pe
+ATTENDEE;CN="Luis Huallpa";RSVP=TRUE:mailto:luis.huallpa@clarity.pe
+ATTENDEE;CN="Fabio Marroquin";RSVP=TRUE:mailto:fabio.marroquin@clarity.pe
+CLASS:PUBLIC
+CREATED:20241112T232133Z
+DESCRIPTION:¡Una nueva luz está por encenderse!\nEn Clarity hemos ilumina
+	do el camino hacia la transformación digital durante 18 años junto a cad
+	a uno de nuestros colaboradores.\nPor eso\, queremos invitarte a este even
+	to especial para celebrar nuestra trayectoria\, disfrutar de un momento ag
+	radable y revelar nuestra nueva imagen que marcará el comienzo de una nue
+	va etapa para Clarity.\n📍 Lugar: Pescados Capitales Miraflores - Av. 
+	Mariscal La Mar 1337\, Miraflores\n📅 Fecha: 11 de diciembre\n🕜Ho
+	ra: 07:00 pm\n➡️Confirma tu asistencia aquí: https://forms.office.com
+	/r/KPbktiTnih\nSerá una noche de celebración\, networking y proyección 
+	hacia el futuro de Clarity.\n¡Los esperamos!\n\n\n\n
+DTEND;TZID="SA Pacific Standard Time":20241212T010000
+DTSTAMP:20241112T232054Z
+DTSTART;TZID="SA Pacific Standard Time":20241211T190000
+LAST-MODIFIED:20241112T232133Z
+ORGANIZER;CN="Andrea Muñoz":mailto:andrea.munoz@clarity.pe
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:¡Save the Date! Reserva el 11 de diciembre para conocer nuestra nu
+	eva imagen
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000003AA725215835DB01000000000000000
+	010000000EFC277A45C63AF4ABCA5A79CF0505669
+X-ALT-DESC;FMTTYPE=text/html:<div class="elementToProof" style="line-height
+	: 22px\; margin-top: 1em\; margin-bottom: 1em\; font-family: Arial\, Helve
+	tica\, sans-serif\; font-size: 10pt\; color: rgb(0\, 0\, 0)\;"><span style
+	="font-weight: 700\;">¡Una nueva luz está por encenderse!</span></div><d
+	iv class="elementToProof" style="line-height: 22px\; margin-top: 1em\; mar
+	gin-bottom: 1em\; font-family: Arial\, Helvetica\, sans-serif\; font-size:
+	 10pt\; color: rgb(0\, 0\, 0)\;">En <span style="font-weight: 700\;">Clari
+	ty</span>&nbsp\;hemos iluminado el camino hacia la transformación digital
+	 <span style="font-weight: 700\;">durante 18 años</span>&nbsp\;junto a ca
+	da uno de nuestros colaboradores.</div><div style="line-height: 22px\; mar
+	gin-top: 1em\; margin-bottom: 1em\; font-family: Arial\, Helvetica\, sans-
+	serif\; font-size: 10pt\; color: rgb(0\, 0\, 0)\;">Por eso\, queremos invi
+	tarte a  este <span style="font-weight: 700\;">evento especial</span>&nbsp
+	\;para celebrar nuestra trayectoria\, disfrutar de un momento agradable y 
+	revelar  nuestra <span style="font-weight: 700\;">nueva imagen</span>&nbsp
+	\;que marcará el comienzo de una nueva etapa para Clarity.</div><div clas
+	s="elementToProof" style="text-align: left\; text-indent: 0px\; margin: 1e
+	m 0px\; font-family: Arial\, Helvetica\, sans-serif\; font-size: 10pt\; co
+	lor: rgb(0\, 0\, 0)\;">📍 <b>Lugar</b>: Pescados Capitales Miraflores 
+	- Av. Mariscal La Mar 1337\, Miraflores<br>📅 <b>Fecha</b>: 11 de dici
+	embre</div><div class="elementToProof" style="text-align: left\; text-inde
+	nt: 0px\; margin: 1em 0px\; font-family: Arial\, Helvetica\, sans-serif\; 
+	font-size: 10pt\; color: rgb(0\, 0\, 0)\;">🕜Hora: 07:00 pm</div><div 
+	class="elementToProof" style="text-align: left\; text-indent: 0px\; margin
+	: 1em 0px\; font-family: Arial\, Helvetica\, sans-serif\; font-size: 10pt\
+	; color: rgb(0\, 0\, 0)\;">➡️Confirma tu asistencia aquí: <a href="ht
+	tps://forms.office.com/r/KPbktiTnih">https://forms.office.com/r/KPbktiTnih
+	</a></div><div style="text-align: left\; text-indent: 0px\; margin: 1em 0p
+	x\; font-family: Arial\, Helvetica\, sans-serif\; font-size: 10pt\; color:
+	 rgb(0\, 0\, 0)\;">Será una noche de celebración\, networking y proyecci
+	ón hacia el futuro de Clarity.</div><div style="text-align: left\; text-i
+	ndent: 0px\; margin: 1em 0px\; font-family: Arial\, Helvetica\, sans-serif
+	\; font-size: 10pt\; color: rgb(0\, 0\, 0)\;">¡Los esperamos!</div><div s
+	tyle="font-family: Arial\, Helvetica\, sans-serif\; font-size: 10pt\; colo
+	r: rgb(0\, 0\, 0)\;"><br></div><div class="elementToProof" style="font-fam
+	ily: Arial\, Helvetica\, sans-serif\; font-size: 10pt\; color: rgb(0\, 0\,
+	 0)\;"><br></div><div style="font-family: Arial\, Helvetica\, sans-serif\;
+	 font-size: 10pt\; color: rgb(0\, 0\, 0)\;"><br></div>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTLASTSEQUENCE:0
+X-MS-OLK-APPTSEQTIME:20241112T232054Z
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
