@@ -38,3 +38,7 @@ $('#videoModal').on('hidden.bs.modal', function () {
     video.pause();         // Pausar el video
     video.currentTime = 0; // Reiniciar el video al inicio
 });
+$(document).ready(function() {
+    $('#videoModal').modal('show');
+    document.getElementById("videoPlayer").play();
+});
