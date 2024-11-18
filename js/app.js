@@ -1,3 +1,7 @@
+$( document ).ready(function() {
+    $('#videoModal').modal('show');
+    document.getElementById("videoPlayer").play();
+});
 //cuenta regresiva
 function updateCountdown() {
     // Fecha fin (11 de diciembre de 2024)
@@ -37,8 +41,4 @@ $('#videoModal').on('hidden.bs.modal', function () {
     var video = document.getElementById('videoPlayer');
     video.pause();         // Pausar el video
     video.currentTime = 0; // Reiniciar el video al inicio
-});
-$(document).ready(function() {
-    $('#videoModal').modal('show');
-    document.getElementById("videoPlayer").play();
 });
